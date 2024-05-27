@@ -51,22 +51,14 @@ a{
 
 .main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 43.125rem;
 }
-.main-content{
-    height: 70%;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 9rem;
-}
 .main-content-upper{
-    height: 70%;
-    width: 80%;
+    height: 55%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,7 +105,7 @@ a{
 .main-content-bottom{
     padding: 0 2rem;
     height: 20%;
-    width: 80%;
+    width: 70%;
     display: flex;
     gap: 2rem;
     align-items: center;
