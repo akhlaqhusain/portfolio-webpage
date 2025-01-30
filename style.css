@@ -100,7 +100,8 @@ a{
     height: 275px;
 }
 .akhlaq:hover{
-    box-shadow: 2px -1px 16px 12px red;
+    transition: 1s;
+    box-shadow: 0px 0px 20px 8px;
 }
 .main-content-bottom{
     padding: 0 2rem;
